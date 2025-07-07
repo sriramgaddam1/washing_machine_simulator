@@ -1,46 +1,85 @@
- Washing Machine Simulator using PIC16F877A
+# 🧼 Washing Machine Simulator using PIC16F877A
 
-This project simulates a basic washing machine operation using the PIC16F877A microcontroller. The embedded C code is written and compiled using MPLAB X IDE with the XC8 compiler. The logic is tested and simulated using PICSimLab on the PICGenios board.
-Setup Guide
-Refer to the Installation Guide for detailed steps to install MPLAB X IDE, XC8 Compiler, and PICSimLab.
+This project simulates a basic washing machine's functionality using the **PIC16F877A microcontroller**. It is written in Embedded C and developed using **MPLAB X IDE** with the **XC8 Compiler**. The simulation is tested on **PICSimLab** using the **PICGenios** board.
 
-🔧 Tool Installation Overview
-Download and install MPLAB X IDE.
-Install the XC8 Compiler.
-Download PICSimLab.
-🛠️ Tools & Technologies Used
-Microcontroller: PIC16F877A
-Board: PICGenios
-IDE: MPLAB X IDE
-Compiler: MPLAB XC8 Compiler
-Simulator: PICSimLab
-📂 Folder Structure
-washing-machine-simulator/ ├── source_files/ # All .c source code files ├── header_files/ # All .h header files ├── README.md # Project overview and instructions
+---
 
-⚙️ How to Run the Project
-🧱 Step 1: Open and Build in MPLAB X IDE
-Open MPLAB X IDE and create a new project or import the source and header files.
-Make sure the XC8 compiler is properly installed and selected.
-Use the Clean and Build Project option (hammer icon) to compile the project.
-This will automatically generate a .hex file for simulation.
-🧪 Step 2: Simulate in PICSimLab
-Launch PICSimLab.
-Select the PICGenios board.
-Choose the PIC16F877A microcontroller.
-Load the generated .hex file (from the dist directory of your MPLAB project).
-Start the simulation and observe washing machine behavior through simulated LEDs or components.
-🎯 Features
-Simulates washing machine stages: Washing, Rinsing, and Spinning.
-Implements time-based transitions using delay logic.
-Visual feedback via LEDs.
-Demonstrates embedded systems design and microcontroller programming.
-📸 Demo
-A Demonstration Video showing Real-Time working of the Washing Machine Simulator.
-📑 License
-This project is open-source and available under the MIT License.
-You may use or modify it for educational or non-commercial use.
+## 🔧 Tool Installation Guide
 
-🙋‍♂️ Author
-Gaddam Sriram
-Final Year B.Tech Student, Computer Science and Engineering
-Guru Nanak Institutions Technical Campus
+Refer to the installation documentation for step-by-step setup instructions. Below is a quick overview:
+
+- ✅ Download and install **MPLAB X IDE**
+- ✅ Install **MPLAB XC8 Compiler**
+- ✅ Download and install **PICSimLab** for simulation
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+| Component       | Tool / Tech                |
+|----------------|----------------------------|
+| Microcontroller| PIC16F877A                 |
+| Development Board | PICGenios               |
+| IDE            | MPLAB X IDE                |
+| Compiler       | MPLAB XC8 Compiler         |
+| Simulator      | PICSimLab                  |
+| Language       | Embedded C                 |
+
+---
+
+
+---
+
+## ⚙️ How to Run the Project
+
+### 🧱 Step 1: Open and Build in MPLAB X IDE
+
+1. Open MPLAB X IDE.
+2. Create a new project or import the existing source and header files.
+3. Make sure the **XC8 Compiler** is selected.
+4. Use **Clean and Build Project** (hammer icon) to compile.
+5. This generates a `.hex` file inside the `dist/` directory.
+
+### 🧪 Step 2: Simulate in PICSimLab
+
+1. Launch **PICSimLab**.
+2. Select the **PICGenios** board.
+3. Choose **PIC16F877A** as the microcontroller.
+4. Load the compiled `.hex` file.
+5. Run the simulation and observe the output (via LEDs or components).
+
+---
+
+## 🎯 Features
+
+- Simulates washing machine stages: **Washing**, **Rinsing**, and **Spinning**
+- Time-based transitions using software delay logic
+- LED-based visual feedback for each stage
+- Demonstrates core embedded systems concepts and microcontroller interfacing
+
+---
+
+## 📸 Demo
+
+A demonstration video is available showing real-time working of the Washing Machine Simulator.  
+👉 *((https://youtu.be/rqagXWERmpI))*
+
+---
+
+## 📑 License
+
+This project is open-source and available under the **MIT License**.  
+You are free to use or modify this project for **educational or non-commercial purposes**.
+
+---
+
+## 🙋‍♂️ Author
+
+**Gaddam Sriram**  
+Final Year B.Tech Student, Computer Science and Engineering  
+Guru Nanak Institutions Technical Campus  
+[LinkedIn](https://linkedin.com/in/sriramgaddam) | [GitHub](https://github.com/sriramgaddam1)
+
+---
+
+
