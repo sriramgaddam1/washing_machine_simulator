@@ -78,7 +78,7 @@ You are free to use or modify this project for **educational or non-commercial p
 **Gaddam Sriram**  
 Final Year B.Tech Student, Computer Science and Engineering  
 Guru Nanak Institutions Technical Campus  
-[LinkedIn](https://linkedin.com/in/sriramgaddam) | [GitHub](https://github.com/sriramgaddam1)
+[LinkedIn](www.linkedin.com/in/sriram-gaddam-a583b2278) | [GitHub](https://github.com/sriramgaddam1)
 
 ---
 
